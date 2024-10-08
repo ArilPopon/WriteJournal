@@ -50,7 +50,7 @@ int validateEmail(char *email)
 // Fungsi untuk menampilkan hasil akhir jurnal
 void showJurnal(char *title, char *authors, char *affiliation, char *email, char *abstract, char *keywords)
 {
-    char journal[1000];
+    char journal[5000];
     snprintf(journal, sizeof(journal),
              "%s\n\n%s\n%s\n%s\n\n%s\n\nKata Kunci: %s\n",
              title, authors, affiliation, email, abstract, keywords);
@@ -62,7 +62,7 @@ void showJurnal(char *title, char *authors, char *affiliation, char *email, char
 // Fungsi utama untuk WriteJournal
 void writeJournal()
 {
-    char title[100], authors[100], affiliation[100], email[100], abstract[1000], keywords[100];
+    char title[100], authors[100], affiliation[100], email[100], abstract[2500], keywords[100];
 
     // Input Judul
     printf("Masukkan Judul (5-14 kata):\n");

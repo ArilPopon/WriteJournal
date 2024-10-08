@@ -6,6 +6,7 @@ menulis dokumen jurnal. Dokumen awal jurnal terbagi menjadi beberapa bagian:
 4. Email (email penulis)
 5. Abstrak (deskripsi singkat isi jurnal)
 6. Kata Kunci (kata kunci dalam jurnal)
+
 Setiap bagian tersebut masing-masing memiliki ketentuan sebagai berikut:
 1. Judul
 Judul terdiri 5-14 kata.

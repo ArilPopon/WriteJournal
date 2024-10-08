@@ -48,7 +48,7 @@ int validateEmail(char *email)
 }
 
 // Fungsi untuk menampilkan hasil akhir jurnal
-void tampilkanJurnal(char *title, char *authors, char *affiliation, char *email, char *abstract, char *keywords)
+void showJurnal(char *title, char *authors, char *affiliation, char *email, char *abstract, char *keywords)
 {
     char journal[1000];
     snprintf(journal, sizeof(journal),
@@ -122,7 +122,7 @@ void writeJournal()
     }
 
     // Setelah input selesai, tampilkan jurnal
-    tampilkanJurnal(title, authors, affiliation, email, abstract, keywords);
+    showJurnal(title, authors, affiliation, email, abstract, keywords);
 }
 
 int main()
